@@ -1,0 +1,26 @@
+{
+  "modelo": "XGBoost otimizado (RandomizedSearchCV n_iter=30)",
+  "hiperparametros": {
+    "colsample_bytree": 0.590912,
+    "learning_rate": 0.035677,
+    "max_depth": 5,
+    "min_child_weight": 10,
+    "n_estimators": 421,
+    "reg_alpha": 0.007066,
+    "reg_lambda": 0.557656,
+    "subsample": 0.80991
+  },
+  "cv": {
+    "n_folds": 5,
+    "random_state": 42,
+    "rmsle_medio": 0.12344,
+    "baseline_professor_rmsle": 0.17543
+  },
+  "holdout": {
+    "n_amostras": 234,
+    "rmsle": 0.13158,
+    "r2": 0.8933,
+    "mae_usd": 16033.15,
+    "mae_pct_mediana": 9.72
+  }
+}
